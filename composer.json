@@ -1,0 +1,41 @@
+{
+    "name": "ubc-library/doi-sdk",
+    "description": "DOI Resolving Library - PHP",
+    "version": "0.0.1",
+    "keywords": [
+        "doi",
+        "id",
+        "identifier",
+        "library",
+        "purl",
+        "resolver",
+        "handle"
+    ],
+    "homepage": "https://github.com/ubc-library/doi-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Khan-Kernahan",
+            "email": "stefan.khan-kernahan@ubc.ca",
+            "role": "Creator/Developer"
+        }
+    ],
+    "support": {
+        "email": "stefan.khan-kernahan@ubc.ca",
+        "issues": "https://github.com/ubc-library/doi-sdk/issues",
+        "wiki": "https://github.com/ubc-library/doi-sdk/wiki",
+        "source": "https://github.com/ubc-library/doi-sdk.git"
+    },
+    "suggest": {
+        "monolog/monolog": "Allows more advanced logging of the application flow"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "UBC\\LSIT\\DOI\\": "src/UBC/LSIT/DOI/"
+        }
+    }
+}
